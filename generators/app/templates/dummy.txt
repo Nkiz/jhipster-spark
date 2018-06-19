@@ -1,0 +1,2 @@
+hello jhipster-spark!
+It's dummy.txt

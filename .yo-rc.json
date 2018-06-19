@@ -1,0 +1,10 @@
+{
+  "generator-jhipster-module": {
+    "promptValues": {
+      "githubName": "Nkiz",
+      "authorName": "Nida Kizilaslan",
+      "authorEmail": "hussam11@web.de",
+      "authorUrl": ""
+    }
+  }
+}

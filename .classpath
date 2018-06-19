@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="database/|config/|auth/" kind="src" path="generators/app/templates/src/main/java/package"/>
+	<classpathentry kind="src" path="generators/app/templates/src/main/java/package/auth"/>
+	<classpathentry kind="src" path="generators/app/templates/src/main/java/package/config"/>
+	<classpathentry kind="src" path="generators/app/templates/src/main/java/package/database"/>
+	<classpathentry excluding="service/|repository/|cucumber/|config/elasticsearch/|web/rest/errors/|config/|cucumber/stepdefs/|gateway/responserewriting/|web/rest/util/|web/rest/|security/jwt/|security/oauth2/|security/" kind="src" path="generators/app/templates/src/test/java/package"/>
+	<classpathentry excluding="elasticsearch/" kind="src" path="generators/app/templates/src/test/java/package/config"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/config/elasticsearch"/>
+	<classpathentry excluding="stepdefs/" kind="src" path="generators/app/templates/src/test/java/package/cucumber"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/cucumber/stepdefs"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/gateway/responserewriting"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/repository"/>
+	<classpathentry excluding="jwt/|oauth2/" kind="src" path="generators/app/templates/src/test/java/package/security"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/security/jwt"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/security/oauth2"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/service"/>
+	<classpathentry excluding="errors/|util/" kind="src" path="generators/app/templates/src/test/java/package/web/rest"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/web/rest/errors"/>
+	<classpathentry kind="src" path="generators/app/templates/src/test/java/package/web/rest/util"/>
+	<classpathentry kind="lib" path="generators/app/templates/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="generators/app/templates/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
